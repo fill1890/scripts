@@ -68,6 +68,10 @@ function! NumberToggle()
 endfunc
 nnoremap <C-n> :call NumberToggle()<cr>
 inoremap <C-n> :call NumberToggle()<cr>
+
+set colorcolumn=79
+highlight ColorColumn ctermbg=168
+
 " }}}
 " Searching {{{
 set gdefault
